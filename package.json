@@ -1,0 +1,20 @@
+{
+  "name": "bike-master",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "node_modules/.bin/live-server --port=3000 --entry-file=index.html"
+  },
+  "keywords": [
+    "purejs",
+    "native",
+    "api",
+    "js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
