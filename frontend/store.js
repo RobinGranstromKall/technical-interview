@@ -60,7 +60,7 @@ export default class Store {
     return this.state.products.find(item => item.id.toString() === id);
   }
 
-  static getColors(id) {
+  static getColors() {
     return this.state.colors;
   }
 }
